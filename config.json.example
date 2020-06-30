@@ -1,0 +1,9 @@
+{
+  "telegram_bot": {
+    "name": "name_bot",
+    "token": "bot_token"
+  },
+  "parsed_data": {
+    "path": ""
+  }
+}

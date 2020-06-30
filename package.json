@@ -1,0 +1,25 @@
+{
+  "name": "arny-weather-bot-2",
+  "version": "0.0.1",
+  "description": "Weather telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dshveigert/arny-weather-bot-2.git"
+  },
+  "author": "Denis Shveigert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dshveigert/arny-weather-bot-2/issues"
+  },
+  "homepage": "https://github.com/dshveigert/arny-weather-bot-2#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
