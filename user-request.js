@@ -9,4 +9,12 @@ function userRequest(userId, field, data) {
   console.log('userRequest response:  ', JSON.stringify(requests));
   return requests[userId];
 }
-module.exports = userRequest;
+
+function getUserRequests(userId) {
+  console.log('getUserRequests response:  ', JSON.stringify(requests[userId]));
+  return requests[userId];
+}
+module.exports = {
+  userRequest,
+  getUserRequests
+};

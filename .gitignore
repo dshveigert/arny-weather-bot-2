@@ -5,6 +5,7 @@ config.json
 # compiled output
 /.ssl
 /dist
+/weather/parsed_data/*.json
 
 # dependencies
 /node_modules

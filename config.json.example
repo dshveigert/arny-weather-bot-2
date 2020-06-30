@@ -4,6 +4,7 @@
     "token": "bot_token"
   },
   "parsed_data": {
-    "path": ""
+    "path": "",
+    "time_format": "DD-MM-YYYY_H"
   }
 }
